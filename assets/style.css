@@ -190,3 +190,38 @@ li{margin:6px 0}
   font-size:13px;
 }
 
+.actionlist{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:12px;
+}
+
+.action{
+  display:inline-flex;
+  align-items:center;
+  padding:10px 14px;
+  border-radius:12px;
+  border:1px solid var(--line);
+  background:#f1f5ff;
+  color:#1e3a8a;
+  font-weight:700;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.action:hover{
+  background:#e0e7ff;
+  text-decoration:none;
+}
+
+.action.alt{
+  background:#f8fafc;
+  color:var(--text);
+}
+
+.action.alt:hover{
+  background:#eef2f7;
+}
+
+
