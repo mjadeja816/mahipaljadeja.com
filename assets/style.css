@@ -223,5 +223,22 @@ li{margin:6px 0}
 .action.alt:hover{
   background:#eef2f7;
 }
+.libutton{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:8px 16px;
+  height:36px;
+  border-radius:18px;
+  background:#0A66C2;
+  color:#ffffff !important;
+  font-weight:700;
+  font-size:14px;
+  text-decoration:none !important;
+}
+
+.libutton:hover{
+  background:#004182;
+}
 
 
