@@ -166,3 +166,27 @@ li{margin:6px 0}
 @media (max-width: 900px){
   .card{grid-column: span 12}
 }
+
+.linklist{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.linklist > div{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 12px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:#f8fafc;
+}
+
+.linklist .k{
+  color:var(--muted);
+  font-weight:700;
+  font-size:13px;
+}
+
