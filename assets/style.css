@@ -240,5 +240,29 @@ li{margin:6px 0}
 .libutton:hover{
   background:#004182;
 }
+.linkitem{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 14px;
+  border-radius:12px;
+  border:1px solid var(--line);
+  background:#f8fafc;
+}
+
+.linkitem a{
+  font-weight:700;
+  color:#2563eb;
+  text-decoration:none;
+}
+
+.linkitem a:hover{
+  text-decoration:underline;
+}
+
+.linklabel{
+  color:var(--muted);
+  font-weight:600;
+}
 
 
